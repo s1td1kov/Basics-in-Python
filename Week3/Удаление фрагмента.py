@@ -1,0 +1,5 @@
+s = input()
+first_pos = s.find('h')
+last_pos = s.rfind('h')
+temp = s.replace(s[first_pos:last_pos + 1], '')
+print(temp)
